@@ -23,6 +23,7 @@
 
 body {
      background-color: rgba(66, 2, 10, 0.673);
+     font-family: 'Roboto Slab', serif;
 }
 
 .hidden {
@@ -42,6 +43,23 @@ body{
 #instructions{
      width: 70%;
      margin-left: 15%;
+     font-size: 18px;
+     line-height: 1.5em
+}
+#mealName {
+     font-size: 3em;
+     margin: 20px 0;
+}
+.ing-list{
+     font-size: 18px;
+     line-height: 1.3em;
+}
+.subHeader{
+     font-size: 36px;
+}
+.cat-list{
+     font-size: 18px;
+     line-height: 2em;
 }
 
 /******************************************
