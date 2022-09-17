@@ -12,6 +12,7 @@ function showCats(){
             let list = document.getElementById('catList')
             for(let i=0; i<catList.length; i++) {
                 let li = document.createElement('li')
+                li.classList.add('cat-list')
                 li.innerText = catList[i].strCategory
                 list.appendChild(li)
             }
@@ -34,6 +35,7 @@ function random(){
             for(let i=1; i<20;i++){
                 if (meal['strIngredient' + i]!= ''){
                     let li = document.createElement('li')
+                    li.classList.add('ing-list')
                     li.innerText = meal['strIngredient' + i] + ': ' + meal['strMeasure'+i]
                     list.appendChild(li)
                 }}
