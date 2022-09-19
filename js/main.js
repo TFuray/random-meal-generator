@@ -20,7 +20,7 @@ function showCats() {
             }
         })
         .catch(err => {
-            console.log(`error ${err}`)5
+            console.log(`error ${err}`)
         })
 }
 
