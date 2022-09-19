@@ -15,8 +15,8 @@ function showCats() {
                 li.classList.add('cat-list')
                 li.setAttribute('id', `${catList[i].strCategory})`)
                 li.innerText = catList[i].strCategory
+                li.addEventListener('click', )
                 list.appendChild(li)
-                // document.querySelector(`#${catList[i].strCategory}`).addEventListener('click', pickCat)
             }
         })
         .catch(err => {
@@ -52,6 +52,10 @@ function pickCat(cat) {
     fetch(url)
         .then(res => res.json())
         .then(data => {
-            console.log(data);
+            console.log(data)
+
+        })
+        .catch(err => {
+            console.log(`error ${err}`)
         })
 }
