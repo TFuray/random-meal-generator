@@ -52,7 +52,6 @@ function random() {
 function resetRandom() {
     document.querySelector('#display').classList.toggle('hidden')
     document.querySelector('#mealName').innerText = null
-    document.querySelector('#mealPic').src = null
     document.querySelector('#instructions').innerText = null
     document.querySelector('#ing').innerText = null
 }
