@@ -22,10 +22,19 @@
 /*******************************************/
 
 body {
-     background-color: rgba(66, 2, 10, 0.673);
+     background-color: rgba(12, 41, 77, 0.811);
      font-family: 'Roboto Slab', serif;
 }
-
+ol {
+     width: 45%;    
+     margin: auto;
+}
+li {
+     margin: auto;
+     width: 45%;
+     text-align: center;
+     line-height: 1.5rem;
+}
 .hidden {
      display: none;
 }
